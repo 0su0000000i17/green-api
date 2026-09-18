@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #1677ff;
+  --color-primary-hover: #0869ec;
+  --color-primary-soft: #eaf3ff;
+  --color-text: #182033;
+  --color-text-muted: #8794a8;
+  --color-text-faint: #a4afbd;
+  --color-page: #f4f7fb;
+  --color-surface: #fff;
+  --color-chat-background: #f7f9fc;
+  --color-input-background: #fbfcff;
+  --color-hover: #f2f6fb;
+  --color-avatar: #dcecff;
+  --color-border: #e9edf3;
+  --color-divider: #eef1f5;
+  --color-input-border: #dce5ef;
+  --color-success: #39a777;
+  --color-success-soft: #e8f8f0;
+  --color-error: #b9384a;
+  --color-error-soft: #fff0f2;
+  --color-error-border: #ffdae0;
+  --color-warning: #c5744b;
+  --color-warning-soft: #fff4ea;
+  --radius-control: 11px;
+  --radius-medium: 12px;
+}

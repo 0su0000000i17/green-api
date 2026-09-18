@@ -1,0 +1,32 @@
+{
+  "name": "max-green-api-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "server": "node server/index.js",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "check": "npm run test && npm run build && npm run format:check",
+    "format": "prettier --write src server index.html package.json vite.config.ts tsconfig.json",
+    "format:check": "prettier --check src server index.html package.json vite.config.ts tsconfig.json"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "prettier": "^3.9.8",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

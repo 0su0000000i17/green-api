@@ -1,0 +1,53 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #1a294266;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.modal {
+  position: relative;
+  background: var(--color-surface);
+  width: min(100%, 410px);
+  border-radius: 22px;
+  box-shadow: 0 30px 85px #162b5040;
+  padding: 34px;
+}
+.modal .close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.modal-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+.modal h2 {
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  margin: 20px 0 7px;
+}
+.modal p {
+  margin-bottom: 24px;
+}
+.modal form {
+  gap: 10px;
+}
+.modal form small {
+  color: var(--color-text-faint);
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+.modal .primary {
+  justify-content: space-between;
+}
+.back-button {
+  display: none;
+}
