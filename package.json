@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "server": "node server/index.js",
+    "typecheck": "tsc --noEmit",
     "build": "tsc -b && vite build",
     "test": "vitest run",
-    "check": "npm run test && npm run build && npm run format:check",
+    "check": "npm run typecheck && npm run test && npm run build && npm run format:check",
     "format": "prettier --write src server index.html package.json vite.config.ts tsconfig.json",
     "format:check": "prettier --check src server index.html package.json vite.config.ts tsconfig.json"
   },
